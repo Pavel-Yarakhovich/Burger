@@ -2,7 +2,7 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	margin: 5px 0;
+	margin: 2px 0;
 }
 
 .BuildControl button {
@@ -34,6 +34,7 @@
 	padding: 10px;
 	font-weight: bold;
 	width: 80px;
+	text-transform: uppercase;
 }
 
 .BuildControl .Less {  

@@ -1,5 +1,5 @@
 .Logo {
-	background-color: white;
+	background-image: linear-gradient(to top,white, transparent 25%, transparent 75%, white);
 	padding: 8px;
 	height: 100%;
 	box-sizing: border-box;
