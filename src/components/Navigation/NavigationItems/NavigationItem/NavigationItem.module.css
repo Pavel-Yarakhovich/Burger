@@ -3,9 +3,6 @@
 	box-sizing: border-box;
 	display: block;
 	width: 100%;
-}
-
-.NavigationItem a {
 	color: #8f5c2c;
 	text-decoration: none;
 	width: 100%;
@@ -13,9 +10,8 @@
 	display: block;
 }
 
-.NavigationItem a:hover,
-.NavigationItem a:active,
-.NavigationItem a.active {
+.NavigationItem:hover,
+.NavigationItem.active {
 	color: #40a4c8;
 }
 
@@ -26,20 +22,17 @@
 		height: 100%;
 		width: auto;
 		align-items: center;
-	}
-	
-	.NavigationItem a {
 		color: white;
 		height: 100%;
 		padding: 16px 10px;
 		border-bottom: 4px solid transparent;
 	}
 	
-	.NavigationItem a:hover,
-	.NavigationItem a:active,
-	.NavigationItem a.active {
+	.NavigationItem:hover,
+	.NavigationItem.active {
 		background-color: #8f5c2c;
 		border-bottom: 4px solid #40a4c8;
-		color: white;
+		color: #40a4c8;
+		font-weight: 700;
 	}
 }
