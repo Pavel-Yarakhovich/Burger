@@ -31,3 +31,8 @@
 	font: inherit;
 	padding: 6px 10px;
 }
+
+.Invalid {
+	border: 1px solid red;
+	background-color: salmon;
+}
